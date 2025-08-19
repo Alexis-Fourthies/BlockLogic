@@ -95,7 +95,7 @@ export default function Home() {
   const [score, setScore] = React.useState(0);
   const [bestScore, setBestScore] = React.useState(() => {
     if (typeof window !== "undefined") {
-      return Number(localStorage.getItem("blockudoku_best")) || 0;
+      return Number(localStorage.getItem("blocklogic_best")) || 0;
     }
     return 0;
   });
@@ -150,7 +150,7 @@ export default function Home() {
   React.useEffect(() => {
     if (isGameOver && score > bestScore) {
       setBestScore(score);
-      localStorage.setItem("blockudoku_best", score);
+      localStorage.setItem("blocklogic_best", score);
     }
   }, [isGameOver, score, bestScore]);
 
@@ -240,7 +240,7 @@ export default function Home() {
           letterSpacing: "-0.02em",
         }}
       >
-        Blockudoku
+        BlockLogic
       </h1>
       <p
         style={{

@@ -1,10 +1,10 @@
-# 🎮 Blockudoku
+# 🎮 BlockLogic
 
 Un jeu de puzzle inspiré du Sudoku et du Tetris, développé avec Next.js et React.
 
 ## 🎯 Description du Jeu
 
-Blockudoku combine la logique du Sudoku avec le gameplay du Tetris. Placez des formes géométriques sur une grille 9x9 et remplissez les lignes, colonnes ou carrés 3x3 pour marquer des points et progresser dans le jeu.
+BlockLogic combine la logique du Sudoku avec le gameplay du Tetris. Placez des formes géométriques sur une grille 9x9 et remplissez les lignes, colonnes ou carrés 3x3 pour marquer des points et progresser dans le jeu.
 
 ### 🎲 Mécaniques de Jeu
 

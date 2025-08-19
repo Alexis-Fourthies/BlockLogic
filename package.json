@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev --hostname 192.168.1.37",
     "build": "next build",
+    "build:static": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && touch out/.nojekyll"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.52.0",
