@@ -188,18 +188,22 @@ yarn start
 ### Variables d'Environnement
 
 #### Configuration Locale
+
 1. Copiez le fichier `env.example` vers `.env.local` :
+
 ```bash
 cp env.example .env.local
 ```
 
 2. Modifiez `.env.local` avec vos vraies clés Supabase :
+
 ```env
 NEXT_PUBLIC_SUPABASE_URL=votre_vraie_url_supabase
 NEXT_PUBLIC_SUPABASE_ANON_KEY=votre_vraie_clé_anon_supabase
 ```
 
 #### ⚠️ Sécurité
+
 - **NE JAMAIS** commiter le fichier `.env.local` dans Git
 - Le fichier `.env.local` est automatiquement ignoré par `.gitignore`
 - Utilisez `env.example` comme modèle pour les autres développeurs
